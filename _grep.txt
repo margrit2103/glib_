@@ -1,4 +1,5 @@
-﻿BRANCH1
+﻿ADD MAIN BRAQNCH 1
+BRANCH1
 G:/gd6/glib/sql/basic_lysglb_scipt.sql:select lysglb.theupdateprocessmodification('basic_lysglb' , 'basic_lysglb' , '2018.03.06.01');
 G:/gd6/glib/sql/clean_up_pricelist_structure.sql:select lysglb.theupdateprocessmodification('lysglb' , 'clean_up_pricelist_structure' , '1.08' );
 G:/gd6/glib/sql/contracts_sql.sql:select lysglb.theupdateprocessmodification('lysglb' , 'contracts_sql' , '2018.05.02.01');
