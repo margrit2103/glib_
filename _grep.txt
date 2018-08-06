@@ -1,4 +1,5 @@
-﻿hhhhhhhhhhhhhhhhhhG:/gd6/glib/sql/basic_lysglb_scipt.sql:select lysglb.theupdateprocessmodification('basic_lysglb' , 'basic_lysglb' , '2018.03.06.01');
+﻿BRANCH1
+hhhhhhhhhhhhhhhhhhG:/gd6/glib/sql/basic_lysglb_scipt.sql:select lysglb.theupdateprocessmodification('basic_lysglb' , 'basic_lysglb' , '2018.03.06.01');
 G:/gd6/glib/sql/clean_up_pricelist_structure.sql:select lysglb.theupdateprocessmodification('lysglb' , 'clean_up_pricelist_structure' , '1.08' );
 G:/gd6/glib/sql/contracts_sql.sql:select lysglb.theupdateprocessmodification('lysglb' , 'contracts_sql' , '2018.05.02.01');
 G:/gd6/glib/sql/country_life.sql:select lysglb.theupdateprocessmodification('lysglb' , 'country_life' , '2018.03.01.01');
