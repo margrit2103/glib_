@@ -1,0 +1,148 @@
+﻿G:/gd6/glib/sql/basic_lysglb_scipt.sql:select lysglb.theupdateprocessmodification('basic_lysglb' , 'basic_lysglb' , '2018.03.06.01');
+G:/gd6/glib/sql/clean_up_pricelist_structure.sql:select lysglb.theupdateprocessmodification('lysglb' , 'clean_up_pricelist_structure' , '1.08' );
+G:/gd6/glib/sql/contracts_sql.sql:select lysglb.theupdateprocessmodification('lysglb' , 'contracts_sql' , '2018.05.02.01');
+G:/gd6/glib/sql/country_life.sql:select lysglb.theupdateprocessmodification('lysglb' , 'country_life' , '2018.03.01.01');
+G:/gd6/glib/sql/create_logging.sql:SELECT lysglb.theupdateprocessmodification( 'lysglbstruct', 'logging_on_tables', '2018.05.17.01' );
+G:/gd6/glib/sql/docman_functions_plpgsql.sql:select lysglb.theupdateprocessmodification('docman' , 'DOCMAN_FUNCTIONS_PLPGSQL' , '2018.06.15.01');
+G:/gd6/glib/sql/glib_utility.sql:select lysglb.theupdateprocessmodification('utility' , 'UTILSCRIPT_FUNCS_V2' , '2018.06.18.01');
+G:/gd6/glib/sql/glib_utility.sql:-----Note - cannot call theupdateprocessmodification - function not created yet
+G:/gd6/glib/sql/grand_central_struct.sql:SELECT lysglb.theupdateprocessmodification('lysglbstruct' , 'grand_central_struct' , '2018.07.24.01' );
+G:/gd6/glib/sql/hstore_audit_glib.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'hstore_audit_glib' , '2018.03.06.01');
+G:/gd6/glib/sql/import_medprax.sql:select lysglb.theupdateprocessmodification('medprax' , 'MEDPRAX_SCRIPT' , '2017.08.24.01');
+G:/gd6/glib/sql/pg_ledger_scripts_lite.sql:select lysglb.theupdateprocessmodification('lysglb' , 'LDGR_STRUCTURE_LITE_' , '2017.12.07.01');
+G:/gd6/glib/sql/pg_pricelist.sql:select lysglb.theupdateprocessmodification('mpv' , 'pg_pricelist' , '5.29');
+G:/gd6/glib/sql/pg_pricelist.sql: perform lysglb.theupdateprocessmodification( 'mpv',    mypars->>'materialized_view_name',    __mv_version);
+G:/gd6/glib/sql/pg_pricelist.sql:                    perform lysglb.theupdateprocessmodification(  arec.myschema,arec.myview ,    _my_mpv_pricelist_version );
+G:/gd6/glib/sql/pricelist_changes_for_vat.sql:select lysglb.theupdateprocessmodification('lysglb' , 'pricelist_changes_for_vat' , '2018.07.25.01');
+G:/gd6/glib/sql/pricelist_import_data_v2.sql:select lysglb.theupdateprocessmodification('lysglb' , 'pricelist_import_data_v2' , '5.0');
+G:/gd6/glib/sql/qsw_phonehome_functions.sql:select lysglb.theupdateprocessmodification('lysglb_struct' , 'phonehome_struct' , '' );
+G:/gd6/glib/sql/script_medprax_import.sql:select lysglb.theupdateprocessmodification('medprax' , 'MEDPRAX_SCRIPT_IMPORT' , '2018.07.25.01'); --mantis 0015901
+G:/gd6/glib/sql/sprocess.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'sprocess'||utility.pg_version() , '1.4.0');
+G:/gd6/glib/sql/tariff_data.sql:select lysglb.theupdateprocessmodification('lysglb' , 'tariff_data' , '1.74'); -- mantis 0016840
+G:/gd6/glib/sql/tariff_maintenance_sql.sql:select lysglb.theupdateprocessmodification('lysglb' , 'tariff_maintenance' , '5.17'); --// Mantis 0016789
+G:/gd6/glib/sql/tariff_schema.sql:select lysglb.theupdateprocessmodification('lysglb' , 'tariff_schema' , '5.141'); --// Mantis 15336
+G:/gd6/glib/sql/tariff_schema_cj.sql:select lysglb.theupdateprocessmodification('lysglb' , 'tariff_schema_cj' , '5.127'); --// Mantis 0016266
+G:/gd6/glib/sql/updateprices_workflow_views_sql.sql:select lysglb.theupdateprocessmodification('lysglb' , 'updateprices_workflow_views_sql' , '2017.01.19.01');
+G:/gd6/glib/sql/vat_script.sql:SELECT lysglb.theupdateprocessmodification( 'lysglbstruct', 'VAT_GLIB', '2018.04.26.01' );
+G:/gd6/scripts/76_price_exceptions.sql:select lysglb.theupdateprocessmodification('lysglb' , '_76_price_exceptions' , '2015.06.09.1' );
+G:/gd6/scripts/assistant_audit_report.sql:select lysglb.theupdateprocessmodification('lysglb_struct' , 'assistant_audit_create' , '2018.03.12.01');
+G:/gd6/scripts/bank_statements.sql:select lysglb.theupdateprocessmodification('lysglb' , 'EBS_STUFF' , '2016.10.19.01');
+G:/gd6/scripts/cases_db_init.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'CASES_DB_INIT' , '2018.08.03.01' );
+G:/gd6/scripts/cases_db_init.sql:--  1 : Set at the top of cases_db_init.sql : select lysglb.theupdateprocessmodification('lysglbstruct' , 'cases_db_init' , '2014.06.06.01');
+G:/gd6/scripts/cases_db_init.sql:--                   2.1 : Set at the top of cases_db_init.sql : select lysglb.theupdateprocessmodification('lysglbstruct' , 'cases_db_init' , '2014.06.09.01');
+G:/gd6/scripts/cashoop.sql:select lysglb.theupdateprocessmodification('lysglb_struct' , 'cashoop_create' , '2017.09.14.02');
+G:/gd6/scripts/cashoop_2.sql:select lysglb.theupdateprocessmodification('lysglb_struct' , 'cashoop_create2' , '2017.08.26.01');
+G:/gd6/scripts/CCA_STRUCT76.sql:select lysglb.theupdateprocessmodification('lysglb' , 'PGINVOICESTATUSSTRUCTURE76' , '2017.12.05.01' );
+G:/gd6/scripts/CCA_STRUCT76.sql:-- select lysglb.theupdateprocessmodification('lysglb_complete' , 'CreateExceptionReportStructre' , '2015.08.11.01' );
+G:/gd6/scripts/CCA_STRUCT76.sql:select lysglb.theupdateprocessmodification('lysglb_complete' , 'CreateInvoiceActionStructure' , '2011.06.07.1' );
+G:/gd6/scripts/CCA_STRUCT76.sql:--select lysglb.theupdateprocessmodification('lysglb' , 'CreateInvoicePMBStructure' , '2015.08.11.01' );
+G:/gd6/scripts/cjBatchStuffer.sql:select lysglb.theupdateprocessmodification('bs' , 'BATCH_STUFFER' , '1.8' );
+G:/gd6/scripts/cleanup_progroup_structure.sql:select lysglb.theupdateprocessmodification('tariffs' , 'cleanup_progroup_structure' , '1.10'); -- mantis 0016272
+G:/gd6/scripts/combination_functions.sql:SELECT lysglb.theupdateprocessmodification('lysglb' , 'combination_functions' , '2018.07.01.01' );
+G:/gd6/scripts/combination_functions_q.sql:SELECT lysglb.theupdateprocessmodification('lysglb' , 'combination_functions_q' , '2018.07.01.01'  );
+G:/gd6/scripts/creps_data.sql:select lysglb.theupdateprocessmodification('lysglb' , 'creps_data' , '2015.08.02.01');
+G:/gd6/scripts/creps_schema.sql:select lysglb.theupdateprocessmodification('lysglb' , 'creps_schema' , '2018.04.24.01');
+G:/gd6/scripts/cre_age_funcs.sql:select lysglb.theupdateprocessmodification('lysglb' , 'CREAGEFUNCS' , '2013.07.12.1');
+G:/gd6/scripts/customlbl.sql:select lysglb.theupdateprocessmodification('lysglb' , 'CUSTOMLBL' , '2018.02.05.01');
+G:/gd6/scripts/debcreldgrfunc.sql:select lysglb.theupdateprocessmodification('lysglb' , 'CREATEDEBLEDGERSTRUCTURE' , '2018.07.04.01');
+G:/gd6/scripts/debftrans.sql:select lysglb.theupdateprocessmodification('lysglb' , 'DEBFTRANS' , '2016.09.01.01');
+G:/gd6/scripts/debman_trigger.sql:select lysglb.theupdateprocessmodification('lysglb' , 'do_trigger_man_funcs' , '2013.11.08.01');
+G:/gd6/scripts/doc_mstr_stuff.sql:SELECT lysglb.theupdateprocessmodification('lysglbstruct' , 'docmaster_stuff' , '2016.07.20.01' );
+G:/gd6/scripts/do_dfo_dfd_views.sql:select lysglb.theupdateprocessmodification('lysglb_struct' , 'DO_DFO_DFD_VIEWS' , '2016.03.29.03');
+G:/gd6/scripts/edi_structure.sql:select lysglb.theupdateprocessmodification('edistruct' , 'PGSTRUCT_CONVERT' , '1.2');
+G:/gd6/scripts/era_functions_77_plus.sql:select lysglb.theupdateprocessmodification('lysglb' , 'era_functions_77_plus' , '2016.09.14.01' );
+G:/gd6/scripts/era_functions_json.sql:select lysglb.theupdateprocessmodification('lysglb' , 'era_json' , '2018.07.18.01');
+G:/gd6/scripts/financial_age_78.sql:select lysglb.theupdateprocessmodification('lysglb' , 'createdebopenagestructure' , '2017.11.15.02');
+G:/gd6/scripts/finperiod_funcs.sql:SELECT lysglb.theupdateprocessmodification('lysglbstruct' , 'finper' , '2018.06.01.01' );
+G:/gd6/scripts/getsubleer.sql:select lysglb.theupdateprocessmodification('lysglb' , 'GETSUBLEER' , '2018.05.24.03');
+G:/gd6/scripts/glist_sql.sql:select lysglb.theupdateprocessmodification('lysglb', 'glist_sql', '2018.07.09.01'); -- mantis 12095
+G:/gd6/scripts/goodx_install_startup.sql:CREATE OR REPLACE FUNCTION lysglb.theupdateprocessmodification(character varying, character varying, character varying)
+G:/gd6/scripts/goodx_install_startup.sql:  select lysglb.theupdateprocessmodification('utility' , 'utilscript_funcs' , '2014.03.31.1');
+G:/gd6/scripts/goodx_utility.sql:select lysglb.theupdateprocessmodification('utility' , 'GOODX_UTILITY' ,  '2018.07.19.01');
+G:/gd6/scripts/goodx_utility.sql:       perform lysglb.theupdateprocessmodification( lower( myprocess_dir) , upper( myprocess_name ) , myprocess_ver);
+G:/gd6/scripts/goodx_utility.sql:        plpy.execute( """select lysglb.theupdateprocessmodification( lower( '%s' ) , upper( '%s' ) ,'%s') """ %(my_the_dir, my_name, procversion))
+G:/gd6/scripts/gxpe_import_sql.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'gxpe_import_sql' , '1,01');
+G:/gd6/scripts/gxweb_views.sql:select lysglb.theupdateprocessmodification('<@ADIR@>' , 'GXWEB_VIEWS' , '2018.05.22.04');
+G:/gd6/scripts/icd_2012_1.sql:select lysglb.theupdateprocessmodification('lysglb' , 'ICD10VERSION' , '1.2.2012.1');
+G:/gd6/scripts/icd_2012_2.sql:select lysglb.theupdateprocessmodification('lysglb' , 'ICD10FIXER' , '2012.07.16.1');
+G:/gd6/scripts/icd_2012_3.sql:SELECT lysglb.theupdateprocessmodification('lysglb' , 'ICD10VERSIONVWXY' , '2016.09.28.03');
+G:/gd6/scripts/invoice_grouping.sql: select lysglb.theupdateprocessmodification('lysglb' , 'invoice_grouping_levels_version' , '1.1');
+G:/gd6/scripts/ledger_scripts.sql:select lysglb.theupdateprocessmodification('lysglb' , 'LEDGER_SCRIPT' , '1.4');
+G:/gd6/scripts/major_control_totals.sql:select lysglb.theupdateprocessmodification('lysglb' , 'major_control_totals' , '2018.08.09.02'); --// Mantis 0016543
+G:/gd6/scripts/md_notestructure.sql:select lysglb.theupdateprocessmodification('lysglb' , 'md_notes' , '2018.07.18.01');
+G:/gd6/scripts/medprax_schema.sql:select lysglb.theupdateprocessmodification('medprax' , 'medprax_schema' , '1.1.1.1');
+G:/gd6/scripts/msa_queries.sql:     select lysglb.theupdateprocessmodification('msa' , 'msa_queries' , '1.22');
+G:/gd6/scripts/odoo_tariff.sql:select lysglb.theupdateprocessmodification('lysglb_struct' , 'odootariff_struct' , '2016.01.27.01' );
+G:/gd6/scripts/patient_history.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'patient_history' , '2016.06.08.02');
+G:/gd6/scripts/penint.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'PEN_INT' , '2015.01.09.01');
+G:/gd6/scripts/pgdebfdetail.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'dfstructres' , '2016.09.01.01');
+G:/gd6/scripts/pgdebfdetail78.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'dfstructres' , '2018.06.26.01');
+G:/gd6/scripts/pg_ledger_scripts.sql:select lysglb.theupdateprocessmodification('lysglb' , 'LDGR_STRUCTURE_' , '2018.05.29.01');
+G:/gd6/scripts/prescriptions.sql:  select lysglb.theupdateprocessmodification('lysglb', 'prescriptions', '2017.12.12.05' );
+G:/gd6/scripts/qdebmstr_functions.sql:select lysglb.theupdateprocessmodification('lysglb' , 'qdebmstr_functions' , '2018.05.24.01'); --// Mantis 0016645
+G:/gd6/scripts/report_funcs.sql:select lysglb.theupdateprocessmodification('lysglb' , 'report_funcs' , '2018.07.06.01');
+G:/gd6/scripts/statrepfuncs.sql:select lysglb.theupdateprocessmodification('lysglb', 'STAT_FUNCTIONS', '2017.05.02.01' );
+G:/gd6/scripts/status_functions.sql:select lysglb.theupdateprocessmodification('lysglb' , 'STATUS_FUNCS' , '2018.06.01.01');
+G:/gd6/scripts/stock_addent.sql:select lysglb.theupdateprocessmodification('stock' , 'pgsqlstockstruct_addent' , '2014.02.10.2');
+G:/gd6/scripts/stock_struct_76.sql:select lysglb.theupdateprocessmodification('stock' , 'pgsqlstockstruct' , '2017.11.07.01');
+G:/gd6/scripts/stock_struct_78.sql:select lysglb.theupdateprocessmodification('stock' , 'pgsqlstockstruct78' , '2017.11.07.01');
+G:/gd6/scripts/sw_api_funcs.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'SW_API_FUNCS' , '2017.01.13.02');
+G:/gd6/scripts/s_journals.sql:SELECT lysglb.theupdateprocessmodification('lysglb' , 'SJOURNALS' , '2018.06.08.01' );
+G:/gd6/scripts/toggle_json.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'toggle_json' , '2017.07.07.01' );
+G:/gd6/scripts/user_activity_functions.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'useractvity_functions' , '2017.11.23.01' );
+G:/gd6/scripts/Views_dependent_on_other_views.sql:select lysglb.theupdateprocessmodification('lysglb' , 'DEPENDSCRIPTS' , '2018.07.10.01');
+G:/gd6/scripts/wf_handover.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'wf_handover' , '2017.12.01.06');
+G:/gd6/scripts/once_off/fix_dupl_smdblog.sql:select lysglb.theupdateprocessmodification('stock' , 'fix_dupl_smdblog' , '1');
+G:/gd6/SQL Files/consolidate_global_stock_data.sql:select lysglb.theupdateprocessmodification( lower( code ) ,  'STOCKLOCALVIEW' , '') FROM sid_entities;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code , 'PGSQLDATAVERSION' , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code , 'MAPMSTR'          , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code , 'MAPMSTRPASINFO'   , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code , 'PATALLERY_CODE'   , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code , 'DFSTRUCTVIEWS'    , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code , 'DFSTRUCTFUNCS'    , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code , 'MINVBATCHCHECK'    , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code  , 'LDGR_VIEWS_' , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code||'_lysglb' , 'DOCVIEWS_FUNCS'   , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code||'_lysglb' , 'DOCVIEWS'   , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( code  , 'STOCKLOCALVIEW' , '') FROM lysglb.mpy;
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('stock' , 'PGSQLSTOCKSTRUCT_ALL' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('stock' , 'PGSQLSTOCKSTRUCT' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('stock' , 'PGSQLSTOCKSTRUCT78' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb_struct' , 'ONTLEER_STRUCT' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb' , 'PGSQLICD10STRUCT' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb' , 'TARIFF_SCHEMA' , '' );
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb' , 'TARIFF_DATA' , '' );
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'DFSTRUCT' , '' );
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'DFSTRUCTVIEWS' , '' );
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'DFSTRUCTRES' , '' );
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb' , 'DEBFTRANS' ,'' );
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb' , 'DO_TRIGGER_MAN' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'HOSPCASE' , '' );
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb' , 'CREATEDEBOPENAGESTRUCTURE' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb' , 'LYSGLBSTUFF_2' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'ONCE_OFF_NOTEBOOK' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb','DOKASFIX','');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification('lysglb_creopen' , 'CREOOPSTRUCT' , '');
+G:/gd6/SQL Files/convert_77_to_78_reset_flags.sql:select lysglb.theupdateprocessmodification( togglevalue , 'DEBMSTR' , '') 
+G:/gd6/SQL Files/creps_deb_statements.sql:select lysglb.theupdateprocessmodification('creps' , 'deb_statements' , '2018.07.13.01');
+G:/gd6/SQL Files/docit_enablement_nhc.sql:select lysglb.theupdateprocessmodification('lysglbstruct' , 'docit_syncing' , '2018.05.24.01');
+G:/gd6/glib/sql/import_medprax.sql:plpy.notice( """select utility.run_process_if_necessary( 'medprax.upd_excl', '%s', '%s', $sql$%s$sql$ );"""%(  __version, __version_no, _mysql) )
+G:/gd6/glib/sql/import_medprax.sql:plpy.execute( """select utility.run_process_if_necessary( 'medprax.upd_excl', '%s', '%s', $sql$%s$sql$ );"""%(  __version, __version_no, _mysql) )
+G:/gd6/glib/sql/pg_pricelist.sql:select utility.run_process_if_necessary(
+G:/gd6/glib/sql/pg_pricelist.sql:    perform utility.run_process_if_necessary(
+G:/gd6/glib/sql/tariff_schema.sql:select utility.run_process_if_necessary(
+G:/gd6/scripts/bank_statements.sql:select utility.run_process_if_necessary( 'lysglb', 'DEBFTRANS_TOT_AMT', '1.1',
+G:/gd6/scripts/bank_statements.sql:/*select utility.run_process_if_necessary( 'lysglb', 'POPULATE_LYSGLB_EBS', '1.1',
+G:/gd6/scripts/bank_statements.sql:/*select utility.run_process_if_necessary( 'lysglb', 'FLAG_IMPORTED_AS_RECONNED_LYSGLB_EBS', '1.1',
+G:/gd6/scripts/cashoop_2.sql:select utility.run_process_if_necessary( 'lysglb', 'POPULATE_CASHOOP', '1.3',
+G:/gd6/scripts/cashoop_2.sql:select utility.run_process_if_necessary( 'lysglb', 'POPULATE_CASHOOP', '1.4',
+G:/gd6/scripts/cashoop_2.sql:select utility.run_process_if_necessary( 'lysglb', 'POPULATE_CASHOOP', '2.1',
+G:/gd6/scripts/debftrans.sql:select utility.run_process_if_necessary( 'lysglb', 'POPULATE_DEBFTRANS', '1.1',
+G:/gd6/scripts/debftrans.sql:select utility.run_process_if_necessary( 'lysglb', 'VAT_DEBFTRANS', '1.1',
+G:/gd6/scripts/debftrans.sql:select utility.run_process_if_necessary( 'lysglb', 'POPULATE_DEBFTRANS_EXTRA_INFO', '1.1',
+G:/gd6/scripts/goodx_utility.sql:CREATE OR REPLACE FUNCTION utility.run_process_if_necessary(
+G:/gd6/scripts/pgdebfdetail.sql:select utility.run_process_if_necessary( 'lysglb', 'POPULATE_MODIFIERS_ON_DEBFOPEN', '1.1',
+G:/gd6/scripts/pgdebfdetail78.sql:select utility.run_process_if_necessary( 'lysglb', 'POPULATE_MODIFIERS_ON_DEBFOPEN', '1.1',
+G:/gd6/scripts/once_off/HospEDI78.sql:select utility.run_process_if_necessary( 'lysglb', 'HOSPEDI78_STRUCT', '2014.06.12.5',
+G:/gd6/scripts/once_off/HospEDI78.sql:select utility.run_process_if_necessary( 'lysglb', 'HOSPEDI78_STRUCT', '2014.06.12.6',
+G:/gd6/scripts/once_off/notebook_user_act_indexes.sql:select utility.run_process_if_necessary( 'lysglb', 'notebook_user_act_indexes', '2017.05.24.1',
